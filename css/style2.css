@@ -1,0 +1,78 @@
+.html{
+    margin: 0;
+    padding: 0;
+}
+.account-page {
+	align-items: center ;
+	display: flex;
+}
+.account-page .main-wrapper {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.account-content {
+	padding: 30px 0;
+}
+.account-title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.account-subtitle {
+    color: #4c4c4c;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.account-box {
+	background-color: white;
+    border: 2px solid #ededed;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    overflow: hidden;
+    width: 500px;
+}
+.account-wrapper {
+	padding: 30px;
+}
+.account-logo {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.account-box .form-group {
+	margin-bottom: 25px;
+}
+.account-box .account-btn {
+	background: #163d7d;
+	border: 1px;
+    border-radius: 4px;
+    display: block;
+    font-size: 22px;
+    padding: 10px 26px;
+    width: 100%;
+}
+.account-box .account-btn:hover,
+.account-box .account-btn:focus {
+	border: 0;
+	opacity: 0.9;
+}
+.account-box label {
+	font-size: 16px;
+	font-weight: normal;
+    margin-bottom: 5px;
+}
+.account-logo img {
+	width: 120px;
+}
+.account-footer {
+    text-align: center;
+}
+.container img{
+    border-radius: 8px;
+}
+html, body {
+    max-width: 90%;}
